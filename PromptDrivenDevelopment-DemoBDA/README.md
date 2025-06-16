@@ -1,27 +1,14 @@
-# Prompt Driven Development - Demo BDA
+# Welcome to your CDK TypeScript project
 
-This repository contains documentation and implementation details for a Biometric Document Authentication (BDA) system developed using a prompt-driven development approach.
+This is a blank project for CDK development with TypeScript.
 
-## Project Components
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-- **Design Documents**
-  - High Level Design
-  - Component Diagram
-  - Sequence Diagram
-  - API Specification
-  
-- **Implementation Files**
-  - Document Validator
-  - Facial Verification Evaluator
-  - Document Preprocessor
-  - Bedrock Integration
-  - Customer Database Updater
-  - And more...
+## Useful commands
 
-## Getting Started
-
-This project demonstrates how to use prompt-driven development to create a comprehensive system for biometric document authentication.
-
-## License
-
-[Specify your license here]
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `npx cdk deploy`  deploy this stack to your default AWS account/region
+* `npx cdk diff`    compare deployed stack with current state
+* `npx cdk synth`   emits the synthesized CloudFormation template
