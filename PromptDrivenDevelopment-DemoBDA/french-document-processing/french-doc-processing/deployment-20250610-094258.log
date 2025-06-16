@@ -1,0 +1,32 @@
+2025-06-10 09:43:00 [WARNING] [1;33mProject directory already exists. Using existing project.[0m
+2025-06-10 09:43:00 [INFO] [0;34mBootstrapping CDK in AWS account...[0m
+2025-06-10 09:43:10 [SUCCESS] [0;32mCDK bootstrapped successfully in region eu-west-3.[0m
+2025-06-10 09:43:11 [INFO] [0;34mDeploying storage infrastructure...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mStorage infrastructure deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying IAM roles...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mIAM roles deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Document Pre-processor component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mDocument Pre-processor component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Bedrock Data Automation Integration component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mBedrock Data Automation Integration component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Document Validation Service component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mDocument Validation Service component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Facial Verification components...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mFacial Verification components deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Verification Aggregator component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mVerification Aggregator component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Report Generator component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mReport Generator component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Customer Database Updater component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mCustomer Database Updater component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying Document Storage Manager component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mDocument Storage Manager component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mDeploying API Gateway component...[0m
+2025-06-10 09:43:27 [SUCCESS] [0;32mAPI Gateway component deployed successfully.[0m
+2025-06-10 09:43:27 [INFO] [0;34mRunning basic tests to verify deployment...[0m
+2025-06-10 09:43:27 [INFO] [0;34mChecking S3 buckets...[0m
+2025-06-10 09:43:28 [SUCCESS] [0;32mRaw documents bucket created: frenchdocprocessingstorag-rawdocumentsbucketca1a84-bzyln3u9tp2r[0m
+2025-06-10 09:43:28 [INFO] [0;34mChecking DynamoDB tables...[0m
+2025-06-10 09:43:30 [SUCCESS] [0;32mDocument metadata table created: FrenchDocProcessingStorageStack-DocumentMetadataTable6ED808AA-U6NHUMWLFEC1[0m
+2025-06-10 09:43:30 [SUCCESS] [0;32mBasic verification tests completed.[0m
+2025-06-10 09:43:30 [SUCCESS] [0;32mDeployment completed successfully! System is now ready for configuration and testing.[0m
